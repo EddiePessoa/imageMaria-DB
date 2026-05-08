@@ -14,6 +14,10 @@ public enum ImageExtension {
 
     private MediaType mediaType;
 
+    public MediaType getMediaType(){
+        return mediaType;
+    }
+
     ImageExtension(MediaType mediaType){
         this.mediaType = mediaType;
     }
